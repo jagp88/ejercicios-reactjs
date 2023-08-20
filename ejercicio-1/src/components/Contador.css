@@ -1,0 +1,41 @@
+/* Estilos para centrar y dar estilo al contenedor del contador */
+.contador-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 91vh; /* Ocupa toda la altura de la ventana */
+    background-color: lightgray;
+  }
+  
+  /* Estilos para el título */
+  .contador-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para mostrar el valor del contador */
+  .contador-value {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los botones */
+  .contador-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contador-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }  
+
+  .contador-button:hover {
+    background-color: rgba(0, 0, 139, 0.85);    
+  }  

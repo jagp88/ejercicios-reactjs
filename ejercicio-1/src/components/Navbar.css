@@ -1,0 +1,21 @@
+/* Estilos para el Navbar */
+.navbar {
+    display: flex; /* Utilizamos flexbox para el diseño */
+    align-items: center; /* Centramos verticalmente los elementos */
+    justify-content: center; /* Centramos horizontalmente los elementos */
+    background-color: darkblue; /* Color de fondo del Navbar */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    width: 40px; /* Ancho del logo */
+    height: 40px; /* Altura del logo */
+    margin-right: 10px; /* Margen a la derecha */
+  }
+  
+  /* Estilos para el título */
+  .titulo {
+    color: peachpuff; /* Color del texto del título */
+    margin: 0; /* Quitamos el margen alrededor del título */
+  }  

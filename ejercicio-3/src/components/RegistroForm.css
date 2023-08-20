@@ -1,0 +1,95 @@
+/* Contenedor principal del formulario */
+.registration-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  /* Formulario de registro */
+  .registration-form {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Grupo de campos del formulario */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  /* Etiqueta para los campos del formulario */
+  .registration-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada del formulario */
+  .registration-form input {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para mensajes de error */
+  .registration-form .error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: -2px;
+    margin-bottom: 10px;
+  }
+  
+  /* Espacio en blanco invisible para alinear los mensajes de error */
+  .registration-form .error-blank-space {
+    height: 20px;
+    visibility: hidden;
+    content: "";
+  }
+  
+  /* Botón de envío del formulario */
+  .submit-button {
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px; /* Agregamos margen superior para separación */
+  }
+
+  .submit-button:hover {
+    background-color: rgba(0, 0, 139, 0.85);
+  }
+  
+  /* Cambio en la visualización del botón */
+  .registration-form button {
+    display: block; /* Convertir el botón en un bloque para centrarlo */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+  /* Tarjeta que muestra los datos registrados */
+  .registered-data-card {
+    width: 510px; /* Ocupa el mismo ancho que el formulario */
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);    
+  }
+  
+  /* Estilo para el título de la tarjeta de datos registrados */
+  .registered-data-card h3 {
+    margin-bottom: 10px;
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  
+  /* Estilo para los párrafos de los datos registrados */
+  .registered-data-card p {
+    margin: 5px 0;
+  }  

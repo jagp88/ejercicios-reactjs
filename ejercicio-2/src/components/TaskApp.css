@@ -1,0 +1,36 @@
+/* Estilos para el componente TaskApp */
+.TaskApp {
+    font-family: 'Arial', sans-serif; /* Fuente de texto */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interior */
+  }
+  
+  /* Estilos para el contenedor de entrada de tarea */
+  .input-container {
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  /* Estilos para el campo de entrada de tarea */
+  .task-input {
+    padding: 8px; /* Espaciado interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde de 1 píxel con color gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 10px; /* Margen derecho */
+    width: 60%; /* Ancho del campo de entrada */
+    font-size: 14px; /* Tamaño de fuente */
+  }
+  
+  /* Estilos para el botón de agregar tarea */
+  .add-button {
+    background-color: darkblue; /* Color de fondo */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 8px 16px; /* Espaciado interior */
+    cursor: pointer; /* Cambio de cursor al pasar por encima */
+    font-size: 14px; /* Tamaño de fuente */
+  } 
+
+  .add-button:hover {
+    background-color: rgba(0, 0, 139, 0.85); /* Color de fondo al colocar el puntero del ratón */
+  }
